@@ -12,3 +12,18 @@ $(function() {
     }
   });
 });
+
+const button = document.getElementById('download-resume');
+button.addEventListener('click', () => {
+  const fileUrl = 'https://www.dropbox.com/s/yuwyubyshs39c61/K.%20Sri%20Sai%20Sri%20Vamsi%20Krishna_BMU.pdf?dl=0'; // Replace with your file URL
+  const fileName = 'file.pdf'; // Replace with your desired file name
+  
+  const link = document.createElement('a');
+  link.href = fileUrl;
+  link.download = fileName;
+  link.target = '_blank';
+  link.style.display = 'none';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+});
