@@ -126,6 +126,10 @@ border-radius: 50%;
 .black {
 background-color: #383838;
 }
+
+.blue {
+background-color: #576bb5;
+}
     
 
  footer{padding:50px 0px 0px 0px}footer .social li{display:inline;margin-left:20px}footer .social li a{font-size:1.25em;color:#999}
