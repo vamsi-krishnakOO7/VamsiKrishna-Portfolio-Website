@@ -123,6 +123,18 @@ border-radius: 50%;
     z-index: -1;
 }
 
+.circle4 { 
+border-radius: 50%;
+    position: absolute;
+    width: 210px;
+    height: 200px;
+    left: 260px;
+    top: 1000px;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+    z-index: -1;
+}
+
 .black {
 background-color: #383838;
 }
