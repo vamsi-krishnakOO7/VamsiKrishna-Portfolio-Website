@@ -98,6 +98,10 @@ cursor: pointer; }
   .main-nav nav ul li.active a {
     color: #2e79e1; }
 
+.main-nav: hover {
+  cursor: pointer;
+}
+
     .slider {
       width: 100%;
       overflow-x: scroll;
