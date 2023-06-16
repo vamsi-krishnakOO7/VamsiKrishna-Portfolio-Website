@@ -28,6 +28,7 @@ color: #0f68e4;
 .transparent-button {
   border: none;
   background-color: transparent;
+  font-size: 20px;
         }
 
 .container {
