@@ -87,6 +87,11 @@ h1,h2,h3,h4,h5,h6{font-family:"Playfair Display SC",serif;color:#333}a,p,li{font
       font-family: "Playfair Display SC", serif;
     }   
 
+.transparent-button {
+            border: none;
+            background-color: transparent;
+        }
+
 .circle {
 border-radius: 50%;
     position: absolute;
