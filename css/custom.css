@@ -90,7 +90,7 @@ color: #0f68e4;
 }
 
 .main-nav {
-  background: #2d2d2d;
+  background: transperant;
   padding-top: 23px;
 cursor: pointer; }
   .main-nav nav ul li a {
