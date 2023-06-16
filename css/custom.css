@@ -25,6 +25,11 @@ a:hover {
 color: #0f68e4;
 }
 
+.transparent-button {
+  border: none;
+  background-color: transparent;
+        }
+
 .container {
   margin: auto;
   max-width: 662px;
