@@ -36,6 +36,12 @@ color: #0f68e4;
   max-width: 662px;
   padding: 0 20px; }
 
+.projects-container {
+margin: auto;
+  max-width: 662px;
+  padding: 0 20px;
+}
+
 @media only screen and (max-width: 767px) {
   .intro img {
     display: block;
@@ -165,13 +171,13 @@ cursor: pointer; }
 
 .section.second {
   margin-bottom: 90px; }
-.section .container {
+.section .container .projects-container{
   position: relative; }
-  .section .container:after {
+  .section .container .projects-container:after {
     position: absolute;
     content: url(../img/separator.png);
     left: 20px; }
-  .section .container h1 {
+  .section .container .projects-container h1 {
     text-transform: uppercase;
     margin-bottom: 30px;
     position: relative;
